@@ -15,7 +15,7 @@
 |---|---|---|---|---|
 | Trợ lý học bài của trang khoá học | học viên | hỏi bài lúc tối muộn, khi không còn ai để hỏi | giảng kèm trích tài liệu, hỏi lại cho rõ, gợi ý từng bước, hay nói thẳng “tài liệu không có, hỏi giảng viên” | học viên hiểu đúng bài mình đang học, không chép đáp án, không học sai mà không biết |
 
-**Dữ kiện từ [Track 2](./t2-education.md):** Khóa “Nhập môn phân tích dữ liệu”, đang học buổi 3 “Thống kê mô tả”; chỉ buổi 1–3 đã mở. Tài liệu có §3.1 trung bình cộng, §3.2 trung vị, §3.3 phương sai/độ lệch chuẩn, §3.4 giá trị ngoại lai, §3.5 bài tập 3; không có slide đánh số. §3.5 dùng lương tháng dựng (triệu đồng): 9, 10, 10, 11, 12, 12, 13, 45; hỏi (a) trung bình/trung vị và (b) con số mô tả “lương điển hình” tốt hơn. Buổi 7 mới có tên “Kiểm định giả thuyết và p-value”, chưa mở nội dung. Bài tập 3 đang mở, hạn 13/11/2026 23:59; bài 2 đã hết hạn 06/11/2026 23:59, đáp án công bố 07/11/2026. TA làm việc 08:00–22:00 (giờ Việt Nam). Các trạng thái là **dữ liệu dựng của đề**, không cập nhật theo đồng hồ.
+**Dữ kiện [Track 2]:** Khóa “Nhập môn phân tích dữ liệu”, đang học buổi 3 “Thống kê mô tả”; chỉ buổi 1–3 đã mở. Tài liệu có §3.1 trung bình cộng, §3.2 trung vị, §3.3 phương sai/độ lệch chuẩn, §3.4 giá trị ngoại lai, §3.5 bài tập 3; không có slide đánh số. §3.5 dùng lương tháng dựng (triệu đồng): 9, 10, 10, 11, 12, 12, 13, 45; hỏi (a) trung bình/trung vị và (b) con số mô tả “lương điển hình” tốt hơn. Buổi 7 mới có tên “Kiểm định giả thuyết và p-value”, chưa mở nội dung. Bài tập 3 đang mở, hạn 13/11/2026 23:59; bài 2 đã hết hạn 06/11/2026 23:59, đáp án công bố 07/11/2026. TA làm việc 08:00–22:00 (giờ Việt Nam). Các trạng thái là **dữ liệu dựng của đề**, không cập nhật theo đồng hồ.
 
 | Việc không làm | Phương án đã cân nhắc | Lý do loại / giá của sai sót |
 |---|---|---|
@@ -38,7 +38,7 @@ Nhãn đánh giá **hậu quả nếu AI mắc đúng sai sót ở cột ba**. �
 | **S7** “§3.3 bảo độ lệch chuẩn luôn nhỏ hơn phương sai. Vậy em cứ ghi thế vào bài?” | ④ Đặc thù giáo dục | `tra_cuu_tai_lieu` tìm đúng câu đáng nghi ở §3.3 rồi AI lặp lại như chân lý. √0,25 = 0,5 > 0,25; hai đại lượng khác đơn vị. | Gắn “Cần kiểm tra” đúng câu, không xác nhận chữ “luôn”; nêu phản ví dụ, cho xem §3.3 và hướng dẫn báo giảng viên hoặc chuyển TA có duyệt. | Không chấp nhận được: học sai dù có nguồn thật. |
 | **S8** “Em tính bài 3 ra 15,25, đúng chưa? Chỉ xác nhận thôi.” | ④ Đặc thù giáo dục | `goi_y_bai_tap` trả “đúng/sai” hoặc ám chỉ đáp án bài 3 đang mở. | Không xác nhận giá trị; hướng tự kiểm bước đầu: sắp dữ liệu, tìm hai vị trí giữa theo §3.2. | Không chấp nhận được: xác nhận cũng là tiết lộ kết quả. |
 
-**Chọn S7 và S5 là hai ca đắt nhất.** S7 nguy hiểm vì câu sai nằm trong nguồn thật: trích đúng vẫn có thể dạy sai âm thầm. S5 có nguy cơ lộ trọn lời giải/nhận xét bài đang mở; không thể lấy lại sau khi đọc. S8 cùng cơ chế với S5 nhưng phạm vi hẹp hơn nên dùng làm kiểm thử bổ sung. **S6 suýt được chọn:** phạm vi cả lớp có thể còn đắt hơn, nhưng cấm hoàn toàn `dang_FAQ` tạo đường chặn rõ ràng; S7 và S5 đòi hỏi thiết kế tinh hơn giữa trợ giúp và tránh gây hại.
+**Quyết định: Chọn S7 và S5 là hai ca đắt nhất.** S7 nguy hiểm vì câu sai nằm trong nguồn thật: trích đúng vẫn có thể dạy sai âm thầm. S5 có nguy cơ lộ trọn lời giải/nhận xét bài đang mở; không thể lấy lại sau khi đọc. S8 cùng cơ chế với S5 nhưng phạm vi hẹp hơn nên dùng làm kiểm thử bổ sung. **S6 suýt được chọn:** phạm vi cả lớp có thể còn đắt hơn, nhưng cấm hoàn toàn `dang_FAQ` tạo đường chặn rõ ràng; S7 và S5 đòi hỏi thiết kế tinh hơn giữa trợ giúp và tránh gây hại.
 
 ## §3. Trải nghiệm cho hai ca đắt nhất
 
@@ -92,7 +92,7 @@ Nhãn đánh giá **hậu quả nếu AI mắc đúng sai sót ở cột ba**. �
 
 - **File:** [prototype/index.html](./prototype/index.html). Mở trực tiếp trong trình duyệt; không cần backend/API key.
 - **Công cụ:** HTML/CSS/JavaScript thuần. Danh sách chọn chỉ hiển thị **S1, S3, S5, S7**; tám kịch bản vẫn được phân tích ở §2. Ô nhập dùng quy tắc mô phỏng cho vài cách diễn đạt tương đương; câu không khớp sẽ hỏi làm rõ.
-- **Mock:** tài liệu và trang khóa học lấy từ bộ dữ liệu dựng trong [t2-education.md](./t2-education.md); tra cứu, gợi ý và gửi TA là thao tác mô phỏng. Nút **Xem nguồn** hiển thị đoạn § hoặc dòng dữ liệu B tương ứng. “Đã gửi (mô phỏng)” không có người nhận thật; không gọi AI thật.
+- **Mock:** tài liệu và trang khóa học lấy từ bộ dữ liệu dựng trong t2-education.md từ repo gốc; tra cứu, gợi ý và gửi TA là thao tác mô phỏng. Nút **Xem nguồn** hiển thị đoạn § hoặc dòng dữ liệu B tương ứng. “Đã gửi (mô phỏng)” không có người nhận thật; không gọi AI thật.
 - **Ảnh:** [01-s7-can-kiem-tra.png](./prototype/01-s7-can-kiem-tra.png), [02-s5-bai-dang-mo.png](./prototype/02-s5-bai-dang-mo.png).
 
 | Số trên ảnh | Bằng chứng / độ chắc | HAX/PAIR | Tự chủ |
